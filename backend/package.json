@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tsc && node dist/app.js"
+    "dev": "npx tsc && node dist/app.js",
+    "start": "node dist/app.js",
+    "build": "npx tsc"
   },
   "author": "kythonlk",
   "license": "ISC",

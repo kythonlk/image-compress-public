@@ -17,7 +17,7 @@ function App() {
 
   const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
     const selectedFiles = Array.from(e.target.files || []);
-    const newFiles: FileObject[] = selectedFiles.map((file, index) => ({
+    const newFiles: FileObject[] = selectedFiles.map((file) => ({
       file,
       preview: URL.createObjectURL(file),
       filename: file.name,
