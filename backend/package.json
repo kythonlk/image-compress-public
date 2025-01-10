@@ -1,0 +1,28 @@
+{
+  "name": "Image_compressor",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc && node dist/app.js"
+  },
+  "author": "kythonlk",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/sharp": "^0.31.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.3",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3"
+  }
+}
